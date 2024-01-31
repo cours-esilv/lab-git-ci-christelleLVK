@@ -3,6 +3,10 @@ on:
     branches:
     - main
     - 'feature/*'
+    
+permissions:
+  checks: write
+  pull-requests: write
 
 jobs:
   build:
